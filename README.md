@@ -1,10 +1,10 @@
 # TeachYourselfCS-ES / Enseñate Ciencias de la Computación
 
-Traduccion en Español (Latinoamerica) de la guia [TeachYourselfCS](https://teachyourselfcs.com/).
+Traducción en Español (Latinoamérica) de la guía [TeachYourselfCS](https://teachyourselfcs.com/).
 
 A Spanish translation of [TeachYourselfCS](https://teachyourselfcs.com/). 
 
-## Navegacion / Navigation 
+## Navegación / Navigation 
 
 *   [Original](https://teachyourselfcs.com/)
 *   [Español](TeachYourselfCS-ES.md)
