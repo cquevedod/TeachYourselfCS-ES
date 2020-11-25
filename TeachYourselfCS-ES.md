@@ -1,18 +1,18 @@
 # Enseñate Ciencias de la Computación
 
-> Este documento es una traduccion de [TeachYourselfCS](https://teachyourselfcs.com), escrito por [Ozan Onay](https://twitter.com/oznova_) y [Myles Byrne](https://twitter.com/quackingduck). Para mas informacion acerca de esta traduccion, ir al [final del documento](#quien-es-el-traductor).
+> Este documento es una traducción de [TeachYourselfCS](https://teachyourselfcs.com), escrito por [Ozan Onay](https://twitter.com/oznova_) y [Myles Byrne](https://twitter.com/quackingduck). Para más información acerca de esta traduccion, ir al [final del documento](#quien-es-el-traductor).
 
-> Esta version es una traduccion de la ultima version de la original hecha en Mayo 2020.
+> Esta versión es una traducción de la última versión de la original hecha en Mayo 2020.
 
-Si eres un ingeniero autodidacta o un graduado de un bootcamp, te debes a ti mismo aprender ciencias de la computación. Menos mal y te puedes otorgar una educacion en estas sin necesidad de muchos años y una fortuna en un titulo💸.
+Si eres un ingeniero autodidacta o un graduado de un bootcamp, te debes a ti mismo aprender ciencias de la computación. Menos mal y te puedes otorgar una educacion en esta área sin necesidad de invertir muchos años y una fortuna en un titulo💸.
 
-Hay muchos recursos por alli, pero unos son mejores que otros. No necesitas otra lista de "200+ Cursos Online Gratis!". Necesitas respuestas a estas preguntas:
+Hay muchos recursos por ahí, pero unos son mejores que otros. No necesitas otra lista de "200+ Cursos Online Gratis!". Necesitas respuestas a estas preguntas:
 
-- **Cuales temas** debes aprender, y por que?
+- **Cuáles temas** debes aprender, y por qué?
 
-- Cual es **el mejor libro o clase** para un tema?
+- Cuál es **el mejor libro o clase** para un tema?
 
-Esta guia es nuestro intento para darle una respuesta definitiva a esas preguntas.
+Esta guía es nuestro intento para darle una respuesta definitiva a esas preguntas.
 
 ## TL;DR: (Resumelo por favor)
 
@@ -20,15 +20,15 @@ Estudia todos los siguientes temas, en mas o menos el orden presentado, usando e
 
 | Tema                                                                                          | Por que estudiarlo ?                                                                                                                                      | Libro                                                       | Videos                          |
 | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------- |
-| **[Programacion](#Programacion)**                                                             | No seas la persona que nunca entendio algo como la recursion.                                                                                             | _Structure and Interpretation of Computer Programs_         | Brian Harvey Berkeley CS 61A    |
-| **[Arquitetura de Computadores](#arquitetura-de-computadores)**                               | Si no tienes un modelo mental solido sobre como un computador funciona realmente, entonces todas tus abstracciones de alto nivel se quebraran facilmente. | _Computer Systems: A Programmer's Perspective_              | Berkeley CS 61C                 |
-| **[Algoritmos y Estructura de Datos](#algoritmos-y-estructura-de-datos)**                     | Si no sabes como usar estructuras de datos ubicuas como las pilas, colas, arboles, y grafos, no seras capaz de resolver problemas desafiantes.            | _The Algorithm Design Manual_                               | Clases de Steven Skiena         |
-| **[Matemática para Ciencias de la computación](#matemática-para-ciencias-de-la-computacion)** | Las ciencias de la computación son basicamente una rama de las maetmaticas aplicadas, asi que aprender matematicas te dara una ventaja competitiva.       | _Mathematics for Computer Science_                          | Tom Leighton MIT 6.042J         |
-| **[Sistemas Operativos](#sistemas-operativos)**                                               | La mayor parte del codigo que escribes es ejecutado por un sistema operativo, asi que deberias saber como ambos interactuan.                              | _Operating Systems: Three Easy Pieces_                      | Berkeley CS 162                 |
-| **[Redes de Computadores](#redes-de-computadores)**                                           | El internet resulto ser una gran cuestion. Entiende como funciona para desbloquear todo su potencial                                                      | _Computer Networking: A Top-Down Approach_                  | Stanford CS 144                 |
-| **[Base de Datos](#base-de-datos)**                                                           | Los datos son el centro de los programas mas importantes, pero muy pocos entienden como funcionan realmente los sistemas de bases de datos.               | _Readings in Database Systems_                              | Joe Hellerstein Berkeley CS 186 |
-| **[Lenguajes y Compiladores](#lenguajes-y-compiladores)**                                     | Si entiendes como funcionan los lenguajes y los compiladores, entonces seras capaz de escribir mejor codigo y aprender nuevos lenguajes mas facilmente.   | _Crafting Interpreters_                                     | Curso de Alex Aiken en edX      |
-| **[Sistemas Distribuidos](#sistemas-distribuidos)**                                           | Hoy en dia, la mayoria de los sistemas son sistemas distribuidos.                                                                                         | _Designing Data-Intensive Applications by Martin Kleppmann_ | MIT 6.824                       |
+| **[Programacion](#Programacion)**                                                             | No seas la persona que nunca entendió algo como la recursión.                                                                                             | _Structure and Interpretation of Computer Programs_         | Brian Harvey Berkeley CS 61A    |
+| **[Arquitetura de Computadores](#arquitetura-de-computadores)**                               | Si no tienes un modelo mental solido sobre cómo un computador funciona realmente, entonces todas tus abstracciones de alto nivel se quebrarán fácilmente. | _Computer Systems: A Programmer's Perspective_              | Berkeley CS 61C                 |
+| **[Algoritmos y Estructura de Datos](#algoritmos-y-estructura-de-datos)**                     | Si no sabes cómo usar estructuras de datos ubicuas como las pilas, colas, arboles, y grafos, no serás capaz de resolver problemas desafiantes.            | _The Algorithm Design Manual_                               | Clases de Steven Skiena         |
+| **[Matemática para Ciencias de la computación](#matemática-para-ciencias-de-la-computacion)** | Las ciencias de la computación son básicamente una rama de las matemáticas aplicadas, asá que aprender matemáticas te dará una ventaja competitiva.       | _Mathematics for Computer Science_                          | Tom Leighton MIT 6.042J         |
+| **[Sistemas Operativos](#sistemas-operativos)**                                               | La mayor parte del código que escribes es ejecutado por un sistema operativo, así que deberías saber cómo ambos interactúan.                              | _Operating Systems: Three Easy Pieces_                      | Berkeley CS 162                 |
+| **[Redes de Computadores](#redes-de-computadores)**                                           | El internet resultó ser una gran cuestión. Entiende cómo funciona para desbloquear todo su potencial                                                      | _Computer Networking: A Top-Down Approach_                  | Stanford CS 144                 |
+| **[Base de Datos](#base-de-datos)**                                                           | Los datos son el centro de los programas más importantes, pero muy pocos entienden como funcionan realmente los sistemas de bases de datos.               | _Readings in Database Systems_                              | Joe Hellerstein Berkeley CS 186 |
+| **[Lenguajes y Compiladores](#lenguajes-y-compiladores)**                                     | Si entiendes como funcionan los lenguajes y los compiladores, entonces serás capaz de escribir mejor código y aprender nuevos lenguajes más fácilmente.   | _Crafting Interpreters_                                     | Curso de Alex Aiken en edX      |
+| **[Sistemas Distribuidos](#sistemas-distribuidos)**                                           | Hoy en día, la mayoria de los sistemas son sistemas distribuidos.                                                                                         | _Designing Data-Intensive Applications by Martin Kleppmann_ | MIT 6.824                       |
 
 ## Te parece demasiado?
 
