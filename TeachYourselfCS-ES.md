@@ -1,10 +1,10 @@
-# Enseñate Ciencias de la Computación
+# Enséñate Ciencias de la Computación
 
-> Este documento es una traducción de [TeachYourselfCS](https://teachyourselfcs.com), escrito por [Ozan Onay](https://twitter.com/oznova_) y [Myles Byrne](https://twitter.com/quackingduck). Para más información acerca de esta traduccion, ir al [final del documento](#quien-es-el-traductor).
+> Este documento es una traducción de [TeachYourselfCS](https://teachyourselfcs.com), escrito por [Ozan Onay](https://twitter.com/oznova_) y [Myles Byrne](https://twitter.com/quackingduck). Para más información acerca de esta traducción, ir al [final del documento](#quien-es-el-traductor).
 
 > Esta versión es una traducción de la última versión de la original hecha en Mayo 2020.
 
-Si eres un ingeniero autodidacta o un graduado de un bootcamp, te debes a ti mismo aprender ciencias de la computación. Menos mal y te puedes otorgar una educacion en esta área sin necesidad de invertir muchos años y una fortuna en un titulo💸.
+Si eres un ingeniero autodidacta o un graduado de un bootcamp, te debes a ti mismo aprender ciencias de la computación. Menos mal y te puedes otorgar una educación en esta área sin necesidad de invertir muchos años y una fortuna en un título💸.
 
 Hay muchos recursos por ahí, pero unos son mejores que otros. No necesitas otra lista de "200+ Cursos Online Gratis!". Necesitas respuestas a estas preguntas:
 
